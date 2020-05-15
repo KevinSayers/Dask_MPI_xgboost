@@ -1,0 +1,18 @@
+name: xgboost_env
+channels:
+    - conda-forge
+dependencies:
+- python>=3.7
+- pip
+- dask-mpi
+- mpich
+- pip:
+    - dask-ml
+    - dask[dataframe]
+    - dask
+    - sklearn
+    - matplotlib
+    - numpy
+    - xgboost
+    - dask-xgboost
+    - distributed
