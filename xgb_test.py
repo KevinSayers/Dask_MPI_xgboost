@@ -15,10 +15,8 @@ import time
 
 def main():
     start = time.time()
-
     initialize(interface='ib0')
     client = Client()
-
 
     iris = datasets.load_iris()
     X = iris.data
